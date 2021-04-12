@@ -17,17 +17,26 @@ body {
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 80px;
+  font-family: 'Alata', sans-serif;
+  margin: 0 auto;
 }
 
 header a {
 	color: white;
 	text-decoration: none;
+}
 
+header p {
+  font-family: 'New Tegomin', serif;
+  margin: 0 auto;
 }
 
 footer {
 	background-color: #526E40;
+  padding: 50px;
+  color: white;
+  font-family: 'New Tegomin', serif;
 }
 
 /* Add a black background color to the top navigation */
@@ -44,6 +53,7 @@ footer {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
+  font-family: 'Alata', sans-serif;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -64,6 +74,16 @@ footer {
 	background-color: #b9ceac;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.articletitle {
+  font-family: 'Alata', sans-serif;
+  margin-bottom: 0;
+}
+
+main h5 {
+  font-family: 'New Tegomin', serif;
+  margin: 0 auto 10px auto;
 }
 
 nav {
