@@ -45,16 +45,18 @@ footer {
   overflow: hidden;
   position: sticky;
   top: 0;
+  padding: 0 500px;
 
   }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  float: left;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
   font-family: 'Alata', sans-serif;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -62,6 +64,7 @@ footer {
 /* Change the color of links on hover */
 .topnav a:hover {
   color: white;
+  background-color: #242a24;
 }
 
 /* Add a color to the active/current link */
@@ -73,12 +76,18 @@ footer {
 .article {
 	background-color: #b9ceac;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 25px auto;
+  padding: 20px;
+
+}
+
+.article h1 {
+  font-family: 'New Tegomin', serif;
 }
 
 .articletitle {
   font-family: 'Alata', sans-serif;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 main h5 {
@@ -109,4 +118,5 @@ nav {
 
 #back-to-top:hover {
   background-color:; /* Add a dark-grey background on hover */
+
 }
