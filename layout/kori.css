@@ -45,7 +45,8 @@ body {
 }
 
 .navbar li a:hover {
-  background-color: #242a24;
+  background-color: #b9ceac;
+  color: black;
 }
 
 .active {
@@ -101,6 +102,7 @@ footer {
   color: white;
   font-family: 'New Tegomin', serif;
   position: relative;
+  bottom: 0;
 }
 
 
