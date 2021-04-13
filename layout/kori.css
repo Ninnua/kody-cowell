@@ -19,13 +19,12 @@ body {
   background-color: #526e40; /*adds bg colour */
   width: 100%;
   text-align: center;
-  position: relative;
-  z-index: 20;
+  position: absolute;
+
     }
 
 .navbar ul {
-    list-style-type: none; /* remove bullet point */
-  overflow: hidden;
+  list-style-type: none; /* remove bullet point */
   max-width: 540px;
   margin: 0 auto;
   padding: 0 auto;
@@ -53,13 +52,21 @@ body {
   background-color: #242a24;
 }
 
-/* Class to apply on scroll with JS */
-.fixed {
-    position: fixed;
-    width: 100%;
-    z-index: 20;
-    top: 0;
+/* Page content */
+.content {
+  padding: 40px;
+
 }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+ 
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
 /* ######################### HEADER ELEMENTS ############################ */
 
 .header {
@@ -103,8 +110,7 @@ footer {
 	max-width: 1200px;
 	margin: 25px auto;
   padding: 20px;
-  position: relative;
-
+  
 }
 
 .article h1 {
