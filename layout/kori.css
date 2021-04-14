@@ -79,7 +79,7 @@ header p {
 }
 
 .navbar li a:hover {
-  background-color: #b9ceac;
+  background-color: #e1e6dd;
   color: black;
 }
 
@@ -91,10 +91,12 @@ header p {
   top: 0;
  }
 /* ##################################### MAIN ELEMENTS ########################### */
-
+.content {
+  padding: 20px;
+}
 
 .article {
-  background-color: #b9ceac;
+  background-color: #e1e6dd;
   max-width: 800px;
   margin: 25px auto;
   padding: 20px;
@@ -215,7 +217,7 @@ text-align: center;
 }
 
 input[type=submit] {
-  background-color: #b9ceac;
+  background-color: #e1e6dd;
   color: black;
   border: none;
   padding: 5px 20px;
@@ -271,9 +273,7 @@ footer {
 }
 
 /* Page content */
-.content {
-  padding: 20px;
-}
+
 
 
 /* ####################### Back to top button ############################## */
