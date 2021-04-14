@@ -30,6 +30,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   text-transform: uppercase;
+  text-align: center;
  }
 
 header a {
@@ -91,9 +92,6 @@ header p {
  }
 /* ##################################### MAIN ELEMENTS ########################### */
 
-#homepage {
-  margin-top: 65px;
-}
 
 .article {
   background-color: #b9ceac;
@@ -182,7 +180,7 @@ main h5 {
 }
 
 #widget-icon {
-  height: 150px;
+  height: 160px;
   border-radius: 50%;
 }
 
@@ -204,6 +202,9 @@ main h5 {
 .newsletter p {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
 input[type=email] {
@@ -271,8 +272,7 @@ footer {
 
 /* Page content */
 .content {
-  padding: 40px;
-
+  padding: 20px;
 }
 
 
@@ -292,6 +292,3 @@ footer {
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
-
-
-
