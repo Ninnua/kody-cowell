@@ -102,17 +102,36 @@ header p {
 
 footer {
 	background-color: #242a24;
-  padding: 50px;
+  padding: 30px;
   color: white;
   font-family: 'New Tegomin', serif;
   position: relative;
   bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+ }
+
+ .footer-text a{
+  text-decoration: none;
+  color: white;
+ }
+
+.footer-text a:hover {
+  color: #526e40;
 }
 /*################### SIDEBAR ##################*/
 
 
 
 /* ######################################################################### */
+#homepage {
+  margin-top: 65px;
+}
+
 .article {
 	background-color: #b9ceac;
 	max-width: 1200px;
@@ -218,7 +237,7 @@ main h5 {
   font-size: 14px;
 }
 
-input[type=text] {
+input[type=email] {
 margin: 5px;
 height: 30px;
 width: 90%;
@@ -244,8 +263,8 @@ input[type=submit]:hover {
 #back-to-top {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 100px; /* Place the button at the bottom of the page */
-  right: 100px; /* Place the button 30px from the right */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 60px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -257,4 +276,18 @@ input[type=submit]:hover {
   font-size: 18px; /* Increase font size */
 }
 
-/* ################################# dropdown men ########################### */
+/* ################################# FONTAWESOME ICON ########################### */
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: #526e40;
+}
+
