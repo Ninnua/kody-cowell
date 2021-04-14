@@ -1,6 +1,7 @@
 window.onscroll = function() {onscroll_function()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
+var sidebar = document.getElementById("sidebar");
 mybutton = document.getElementById("back-to-top")
 function onscroll_function() {
   navFunction();
@@ -15,6 +16,8 @@ function navFunction() {
   }
 }
 
+
+
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display  = "block";
@@ -28,3 +31,4 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
 
+l
