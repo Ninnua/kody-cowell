@@ -118,7 +118,7 @@ footer {
 	max-width: 1200px;
 	margin: 25px auto;
   padding: 20px;
-  
+  opacity: 60;
 }
 
 .article h1 {
@@ -130,12 +130,116 @@ footer {
   font-family: 'Alata', sans-serif;
   margin: 0;
 }
+.article p {
+  font-family: 'Alata', sans-serif;
+}
 
 main h5 {
   font-family: 'New Tegomin', serif;
   margin: 0 auto 10px auto;
 }
+#about-test {
+  display: inline-block;
+  width: 500px;
+}
 
+#about-img {
+  display: inline-block;
+}
+
+/*#######################3 Footer widets #############################333 */
+.footer-widgets {
+  display: block;
+  box-sizing: border-box;
+  background-color: #e8e8e8;
+  color: #333;
+  clear: both;
+  padding: 40px 0px 0px;
+  height: 300px;
+  max-width: 100%;
+  margin:0 auto;
+  text-align: center;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  float: center;
+}
+
+.footer-widget-1{
+  float: left;
+  padding: 1% ;
+  width: 25%;
+  text-align: center;
+}
+
+.footer-widget-2{
+  float: left;
+  padding: 1%;
+  width: 50%;
+  text-align: center;
+}
+
+.footer-widget-3 {
+  float: left;
+  padding: 1%;
+  width:  25%;
+  text-align: center;
+}
+
+.widget-title {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#widget-icon {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.insta-pic {
+  display: inline-block;
+ }
+
+#picture {
+  height: 160px;
+  display: block;
+  padding: 5px;
+}
+
+.widget-images {
+  float: center;
+  display: block;
+}
+
+.newsletter p {
+  font-family: 'New Tegomin', serif;
+  font-size: 14px;
+}
+
+input[type=text] {
+margin: 5px;
+height: 30px;
+width: 90%;
+text-align: center;
+}
+
+input[type=submit] {
+  background-color: #b9ceac;
+  color: black;
+  border: none;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 10%;
+  text-transform: uppercase;
+  font-family: 'Alata', serif;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
 /* ####################### Back to top button ############################## */
 #back-to-top {
   display: none; /* Hidden by default */
