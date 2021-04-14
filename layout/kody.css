@@ -103,11 +103,20 @@ header p {
   opacity: 60;
 }
 
+.article h1{
+  padding-top: 50px;
+}
+
+.latest h2{
+  padding-top: 50px;
+}
+
 .article h1, h2 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase; ;
   letter-spacing: 3px;
   margin: 0 auto;
+
 }
 
 .articletitle {
@@ -294,15 +303,36 @@ footer {
 }
 
 /* ############################## Close button #################################3 */
-.button {
-  background-color: #ddd;
-  border: none;
-  color: black;
-  padding: 10px 20px;
+.thank-you {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
+  background-color: #e1e6dd;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  opacity: 60;
 }
+
+.close-button {
+  box-sizing: border-box;
+  height: 20px;
+  background-color: green;
+  width: 50px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.close {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.close-button a{
+  text-decoration: none;
+}
+
+.close-button a:hover{
+  cursor: pointer;
+}
+
+
