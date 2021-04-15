@@ -60,6 +60,7 @@ header p {
   font-family: 'Playfair Display', serif;
   letter-spacing: 4px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* ##################################### NAV BAR ########################### */
