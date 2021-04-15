@@ -176,7 +176,7 @@ color: black;
 }
 
 .article-form p {
-  font-family: 'New Playfair', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   letter-spacing: 2px;
   margin: 20px auto;
@@ -203,7 +203,7 @@ color: black;
 }
 
 .intro p {
-  font-family: 'New Playfair', serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
 }
 
@@ -211,18 +211,29 @@ color: black;
   font-family: 'Raleway', sans-serif;
   margin:;
 }
+
+.article h5 a{
+  color: black;
+  text-decoration: none;
+}
+
+.article h5 a:hover{
+font-weight: bold;
+color: #526e40;
+}
+
 .article p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   padding-bottom: 10px;
 }
 
-.article a{
+.article p a{
   text-decoration: none;
   color: #526e40;
 }
 
-.article a:hover{
+.article p a:hover{
  font-weight: bold;
 }
 
