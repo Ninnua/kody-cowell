@@ -211,7 +211,7 @@ color: black;
 #about-img {
   display: inline-block;
   height: auto;
-  max-width: 380;
+  max-width: 380px;
   width: 100%;
   float: left;
 }
