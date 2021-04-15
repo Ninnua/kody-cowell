@@ -423,6 +423,7 @@ footer {
   margin: 50px auto;
   padding: 20px;
   opacity: 60;
+  box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.28);
 }
 
 .close-button {
