@@ -217,10 +217,7 @@ color: black;
   text-decoration: none;
 }
 
-.article h5 a:hover{
-font-weight: bold;
-color: #526e40;
-}
+
 
 .article p {
   font-family: 'Raleway', sans-serif;
