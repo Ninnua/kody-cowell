@@ -27,9 +27,10 @@ h1, h2 {
 
 h5 {
   font-family: 'Playfair Display', serif;
+  color: #333;
   margin: 0 auto 20px auto;
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 16px;
 }
 /* ##################################### HEADER ########################### */
 .header {
@@ -247,13 +248,21 @@ color: black;
   font-family: 'Raleway', sans-serif;
   margin:;
 }
+.article h5{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  
 
-.article h5 a{
-  color: black;
-  text-decoration: none;
 }
 
-
+.article h5 a{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #333;
+}
 
 .article p {
   font-family: 'Raleway', sans-serif;
@@ -266,9 +275,15 @@ color: black;
   color: #526e40;
 }
 
-.article p a:hover{
- font-weight: bold;
+.article h5 a:hover{
+ font-weight: lighter;
+ color: #526e40;
+ 
 }
+.article p a:hover{
+ font-weight: bolder;
+ color: #526e40;
+ }
 
 #about-text {
   display: inline-block;
