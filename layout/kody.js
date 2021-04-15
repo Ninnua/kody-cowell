@@ -1,7 +1,6 @@
 window.onscroll = function() {onscroll_function()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
-var sidebar = document.getElementById("sidebar");
 mybutton = document.getElementById("back-to-top")
 function onscroll_function() {
   navFunction();
