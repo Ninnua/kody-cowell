@@ -175,6 +175,12 @@ color: black;
    overflow: hidden;
 }
 
+.article-form p {
+  font-family: 'New Playfair', serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
 .intro {
   background-color: #e1e6dd;
   max-width: 800px;
