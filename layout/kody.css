@@ -242,6 +242,7 @@ color: black;
 .intro p {
   font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
+  padding-bottom: 10px;
 }
 
 .articletitle {
