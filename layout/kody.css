@@ -109,12 +109,7 @@ header p {
   top: 0;
  }
 
- @media screen and (max-width: 850px) {
-.navbar a{
-  font-size: 14px;
-  padding: 22px 15px;
-}
-}
+
 /* ##################################DROPDOWN#########################*/
 /* Dropdown Button */
 
@@ -123,7 +118,6 @@ header p {
   float: left;
   overflow: hidden;
 }
-
 
 
 .dropdown .dropbtn {
@@ -168,6 +162,42 @@ color: black;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+ @media screen and (max-width: 850px) {
+.navbar a{
+  font-size: 14px;
+  padding: 22px 10px;
+  width: 25%;
+
+}
+.dropdown {
+  width: 25%;
+}
+#dropbtn{
+  width: 100%;
+}
+.dropdown-content{
+  width: 25%;
+}
+
+.dropdown-content a{
+  width: 100%;
+}
+.navbar a:hover{
+  background-color: #526e40;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e1e6dd;
+  }
+.navigation {
+  width: 95%;
+  margin: 0 auto;
+}
+.dropdown .dropbtn{
+  padding: 22px 10px;
+  font-size: 14px;
+}
 }
 
 
