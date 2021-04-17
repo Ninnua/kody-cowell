@@ -46,6 +46,23 @@ hr {
   border: none;
 }
 
+li {
+  list-style-type: none;
+}
+.list {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+.list a{
+  color: #333;
+  text-decoration: none;
+}
+.list a:hover{
+  color: #526e40;
+  font-weight: bold;
+}
+
 /* ##################################### HEADER ########################### */
 .header {
   padding: 70px;
