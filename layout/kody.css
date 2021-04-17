@@ -109,7 +109,7 @@ header p {
   padding: 22px 26px;
   text-decoration: none;
   text-transform: uppercase;
-
+  text-align: center;
 }
 
 .navbar p{
@@ -257,7 +257,8 @@ color: black;
     padding: 24px 12px;
   }
   #about-kody{
-    padding: 20px 12px;
+    text-align: center;
+    padding: 24px 0;
   }
 }
 /* ################################### HOME BAR ##################################### */
