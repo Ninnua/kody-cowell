@@ -249,7 +249,7 @@ color: black;
 }
 @media screen and (max-width: 520px){
   #about-kody {
-    padding:11px;
+    padding:11px 10px;
   }
 }
 /* ################################### HOME BAR ##################################### */
