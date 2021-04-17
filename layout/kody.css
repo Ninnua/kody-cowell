@@ -37,7 +37,14 @@ h5 {
   font-size: 16px;
 }
 
-
+hr {
+  margin: 10px auto 15px auto;
+  width: 75%;
+  color: #526e40;
+  background-color: #526e40;
+  height: 1px;
+  border: none;
+}
 
 /* ##################################### HEADER ########################### */
 .header {
