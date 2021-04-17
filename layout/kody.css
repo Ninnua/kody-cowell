@@ -46,6 +46,7 @@ h5 {
   position: relative;
   z-index: 20;
   overflow: hidden;
+  text-align: center;
 
 }
 
