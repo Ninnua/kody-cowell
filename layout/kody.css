@@ -248,8 +248,13 @@ color: black;
 }
 }
 @media screen and (max-width: 520px){
-  #about-kody {
-    padding:11px 10px;
+  .navbar a{
+    font-size: 12px;
+    padding: 24px 12px;
+  }
+  .dropdown .dropbtn{
+    font-size: 12px;
+    padding: 24px 12px;
   }
 }
 /* ################################### HOME BAR ##################################### */
