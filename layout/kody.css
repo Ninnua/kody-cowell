@@ -256,6 +256,9 @@ color: black;
     font-size: 12px;
     padding: 24px 12px;
   }
+  #about-kody{
+    padding: 20px 12px;
+  }
 }
 /* ################################### HOME BAR ##################################### */
 .home-bar {
