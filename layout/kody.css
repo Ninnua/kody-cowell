@@ -235,11 +235,16 @@ color: black;
   
 }
 #kody-mono {
-  width: 100%;
-  max-width:250px;
+  width: 250px;
 
 }
 
+@media screen and (max-width: 850px) {
+.home-bar-text{
+  padding-left: 2%;
+  font-size: 0.9em;
+  }
+}
 /* ##################################### MAIN ELEMENTS ########################### */
 
 .article {
