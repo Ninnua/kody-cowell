@@ -206,6 +206,7 @@ color: black;
 .article {
   background-color: #e1e6dd;
   max-width: 800px;
+  width: 100%;
   margin: 20px auto 60px auto;
   padding: 20px;
   opacity: 60;
@@ -242,6 +243,7 @@ color: black;
 .intro {
   background-color: #e1e6dd;
   max-width: 800px;
+  width: 100%;
   margin: 50px auto 20px auto;
   padding: 20px;
   opacity: 60;
@@ -307,15 +309,17 @@ color: black;
  }
 
 #about-text {
-  display: inline-block;
+  display: block;
   width: 50%;
   float: right;
   padding: 30px 20px;
   font-size: 14px;
 }
 
+
+
 #about-img {
-  display: inline-block;
+  display: block;
   height: auto;
   max-width: 380px;
   width: 100%;
@@ -326,7 +330,27 @@ color: black;
 .about-content{
   background-color: #e1e6dd;
   max-width: 800px;
+  width: 100%;
   overflow: hidden;
+}
+@media screen and (max-width: 850px) {
+  #about-text{
+    float: center;
+    margin: 0 auto;
+    width: 100%
+    
+  }
+  #about-img{
+    float: left;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+  .about-content{
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 /*########################### CONTACT FORM ###################################*/
