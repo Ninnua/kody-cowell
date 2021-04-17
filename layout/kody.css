@@ -251,6 +251,16 @@ color: black;
   padding-bottom: 10px;
 }
 
+.intro p a{
+  text-decoration: none;
+  color: black;
+}
+
+.intro p a:hover{
+  color: #526e40;
+  font-weight: bold;
+}
+
 .articletitle {
   font-family: 'Raleway', sans-serif;
   margin:;
