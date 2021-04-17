@@ -511,6 +511,9 @@ margin-top: 40px;
   display: block;
 }
 
+.newsletter{
+  text-align: center;
+}
 .newsletter p {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -528,10 +531,11 @@ text-align: center;
 
 .newsletter input[type=submit] {
   background-color: #e1e6dd;
+  display: block;
   color: black;
   border: none;
   padding: 5px 20px;
-  margin: 5px;
+  margin: 5px auto;
   text-transform: uppercase;
   font-family: 'Raleway', serif;
   font-size: 16px;
@@ -556,6 +560,22 @@ text-align: center;
   }
   .widget-title {
     padding-top: 30px;
+  }
+  .newsletter p{
+    width: 30%;
+    margin: 5px auto 15px;
+  }
+  .newsletter input[type=email] {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .newsletter p{
+    width: 90%;
+  }
+  .newsletter input[type=email]{
+    width: 75%;
   }
 }
 /* ##################################### FOOTER ########################### */
