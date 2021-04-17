@@ -36,6 +36,9 @@ h5 {
   letter-spacing: 2px;
   font-size: 16px;
 }
+
+
+
 /* ##################################### HEADER ########################### */
 .header {
   padding: 70px;
@@ -70,6 +73,16 @@ header p {
   text-align: center;
   font-size: 18px;
 }
+ @media screen and (max-width: 850px) {
+ .header h1 {
+    font-size: 75px;
+  }
+ }
+  @media screen and (max-width: 520px) {
+ .header h1 {
+    font-size: 70px;
+  }
+ }
 
 /* ##################################### NAV BAR ########################### */
 .navbar{
