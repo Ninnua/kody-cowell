@@ -441,6 +441,10 @@ color: black;
  color: #526e40;
  }
 
+ .article-form h1{
+  text-transform: uppercase;
+ }
+
 #about-text {
   display: block;
   width: 50%;
