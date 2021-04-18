@@ -507,7 +507,7 @@ color: black;
  display: block;
  float: left;
  margin:20px;
- box-shadow: 0px 0px 19px 3px rgba(82,110,64,1); 
+ box-shadow: 0px 0px 7px 3px rgba(82,110,64,1); 
 }
 .book-text{
   display: block;
@@ -555,12 +555,18 @@ color: black;
 @media screen and (max-width: 750px){
   .book-text{
     font-size: 14px;
-    padding: 65px 15px;
+    padding: 20% 15px;
   }
   #book-cover{
     width: 40%;
   }
 }
+
+@media screen and (max-width: 520px){
+  .book-text{
+    font-size: 14px;
+    padding: 65px 15px;
+  }
 
 /*########################### CONTACT FORM ###################################*/
 .contact-form{
