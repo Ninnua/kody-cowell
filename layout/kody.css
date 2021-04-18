@@ -302,14 +302,15 @@ color: black;
   width: 50%;
   text-align: center;
   color: white;
-  padding-top: 5%;
+  padding-top: 7%;
   padding-left: 18%;
+
 }
 
-.home-bar-text h2{
+.home-bar-text h3{
   font-family: 'Playfair Display', serif;
   text-transform: none;
-}
+  }
 
 .home-bar-img {
   width: 50%;
@@ -327,7 +328,19 @@ color: black;
 .home-bar-text{
   padding-left: 2%;
   padding-top: 10%;
-  font-size: 0.9em;
+  
+  }
+.home-bar-text h3{
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 520px){
+  .home-bar-text h3{
+    font-size: 12px;
+  }
+  .home-bar-text{
+    padding-top: 20%;
   }
 }
 /* ##################################### MAIN ELEMENTS ########################### */
