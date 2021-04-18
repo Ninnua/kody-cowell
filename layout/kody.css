@@ -619,6 +619,7 @@ margin-top: 40px;
   margin: 0 auto;
   text-align: center;
   float: center;
+  height: 300px;
 }
 
 .footer-widget-1{
@@ -746,8 +747,10 @@ footer {
   padding: 30px;
   color: white;
   font-family: 'Raleway', sans-serif;
-  position: relative;
+  left: 0;
   bottom: 0;
+  width: 100%;
+ 
 }
 
 .footer-text {
