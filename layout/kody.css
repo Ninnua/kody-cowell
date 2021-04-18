@@ -506,7 +506,7 @@ color: black;
  width: 50%;
  display: block;
  float: left;
- margin:25px;
+ margin:20px;
  box-shadow: 0px 0px 19px 3px rgba(82,110,64,1); 
 }
 .book-text{
@@ -549,6 +549,16 @@ color: black;
   .about-content{
     margin: 0 auto;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .book-text{
+    font-size: 14px;
+    padding: 70px 20px;
+  }
+  #book-cover{
+    width: 40%;
   }
 }
 
